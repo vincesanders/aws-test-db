@@ -8,6 +8,7 @@ exports.up = function(knex) {
         tbl.string('first_name').notNullable();
         tbl.string('last_name').notNullable();
         tbl.string('email').notNullable();
+        tbl.string('image');
     });
 };
 
